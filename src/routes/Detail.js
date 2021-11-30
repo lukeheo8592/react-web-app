@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { Link, useParams } from "react-router-dom";
 import MoiveDetail from "../components/MovieDetail";
+import styles from "../components/MovieDetail.module.css";
 
 function Detail() {
   const { id } = useParams();
@@ -24,12 +25,12 @@ function Detail() {
       ) : (
         <>
           <div>
-            <Link to="/">Home</Link>
+            <Link to="/" className={styles.home}>Home</Link>
           </div>
           <div>
             {movieData.status === "ok" ? (
               <MoiveDetail
-                medium_cover_image={movieData.data.movie.medium_cover_image}
+              large_cover_image={movieData.data.movie.large_cover_image}
                 title={movieData.data.movie.title}
                 rating={movieData.data.movie.rating}
                 genres={movieData.data.movie.genres}

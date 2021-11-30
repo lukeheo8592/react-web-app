@@ -1,0 +1,30 @@
+
+
+.home{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 75px;
+}
+.home:hover{
+    font-size: 40px;
+    color: bisque;
+    transition: 0.3s ease-in-out;
+}
+.box{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+.imgbox{
+    width: 40%;
+}
+
+.textbox{
+    width: 58%;
+}
