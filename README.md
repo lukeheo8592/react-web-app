@@ -1,4 +1,4 @@
-simple react web app published with github https://lukeheo8592.github.io/react-web-app
+simple react movie web app used useState, useEffect published with github https://lukeheo8592.github.io/react-web-app
 
 # Getting Started with Create React App
 
